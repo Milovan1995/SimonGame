@@ -59,7 +59,7 @@ function levelUP() {
   level++;
   $("#level-title").text(`Level ${level}.`);
 
-  let randomNumber = Math.floor(Math.random() * 4);
+  let randomNumber = Math.floor(Math.random() * buttonColours.length);
   let randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
 
