@@ -11,7 +11,6 @@ $(document).keypress(function() {
     started = true;
   }
 });
-// better click listener without the if loop
 $(".btn").click(function() {
 
   let userChosenColour = $(this).attr("id");
@@ -37,7 +36,7 @@ function checkAnswer(currentLevel) {
 
     } else {
 
-      console.log("wrong");
+      console.log("wrong answer!");
 
       playSound("wrong");
 
@@ -78,7 +77,6 @@ function animatePress(currentColor) {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
-//reruning everything
 function startOver() {
 
 // resetting the values
