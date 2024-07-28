@@ -10,6 +10,8 @@ $(document).keypress(function() {
     started = true;
   }
 });
+
+
 $(".btn").click(function() {
   let userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
