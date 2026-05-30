@@ -1,5 +1,13 @@
 # Simon Game
 
-## General info
+A simple browser-based Simon memory game built with HTML, CSS, JavaScript and jQuery.
 
-One of the starting projects I have done while learning javascript/jquery. This is a simple browser version of a Simon based game. Run the game by opening the index.html file. 
+## Features
+- Random color sequence generation
+- User input validation
+- Sound effects
+- Level progression
+- Game-over reset state
+
+## How to run
+Open `index.html` in your browser.
